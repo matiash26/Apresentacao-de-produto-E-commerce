@@ -1,9 +1,9 @@
 .products{
     width: 100%;
 }
-.products img {
+.product-item1, .product-item2 {
     background-size: cover;
-    width: 100%;
+    width: 70%;
 }
 
 .products-info {
@@ -63,13 +63,4 @@
 }
 .product-item2 p {
     color: #8F674C;
-}
-
-@media (max-width: 1100px){
-    .products-info {
-        flex-direction: column;
-    }
-    .product-item1 {
-        margin-bottom: 30px;
-    }
 }
