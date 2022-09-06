@@ -1,0 +1,166 @@
+@media(max-width: 1450px) {
+    .about {
+        height: auto;
+        text-align: center;
+    }
+
+    .rowAbout {
+        display: none;
+    }
+
+    .aboutUS img {
+        border: none;
+    }
+
+    .aboutUS {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .product-item1,
+    .product-item2 {
+        align-self: center;
+    }
+}
+
+@media(max-width: 1024px) {
+    header {
+        padding: 0;
+    }
+
+    .navbar {
+        padding: 0;
+        background: #dbbe5c;
+        min-height: 7vh;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .menu-bar a {
+        padding: 15px;
+        border-radius: 7px;
+    }
+
+    .menu-bar a:hover {
+        background: #eb9003;
+    }
+
+    .menu-bar a:active {
+        background: rgba(255, 255, 255, 0.795);
+        color: #dbbe5c;
+    }
+
+    .menu-bar img {
+        display: none;
+    }
+
+    .infoLeft h1 {
+        font-size: 2rem;
+    }
+
+    .infoLeft p {
+        font-size: 1rem;
+    }
+
+    .homeInfo {
+        justify-content: space-around;
+    }
+
+    .infoRight {
+        margin: 0;
+    }
+
+    .products-info {
+        flex-direction: column;
+    }
+
+    .product-item1 {
+        margin-bottom: 30px;
+    }
+}
+
+.footer {
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-item {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-item button {
+    margin: 10% 0;
+}
+
+.footer-item img {
+    display: none;
+}
+
+.socialMedia svg {
+    margin-bottom: 5%;
+}
+
+.footer-container {
+    width: 100%;
+}
+
+.footer-item input {
+    width: 65%;
+}
+
+@media(max-width: 917px) {
+    .profileIcon {
+        display: none;
+    }
+}
+
+@media(max-width: 700px) {
+    .menuMobile {
+        padding-left: 2%;
+        display: flex;
+        width: 100%;
+        position: absolute;
+        top: 15px;
+    }
+
+    .menuMobile svg {
+        font-size: 2rem;
+        color: white;
+        cursor: pointer
+    }
+
+    .menu-bar {
+        flex-direction: column;
+        width: 100%;
+        display: none;
+    }
+
+    .menu-bar a {
+        width: 100%;
+        text-align: center;
+        line-height: 50px;
+        margin: 0;
+    }
+
+    .menu-bar a:hover {
+        background: #eb9003;
+    }
+
+    .menu-bar a:active {
+        background: rgba(255, 255, 255, 0.795);
+        color: #dbbe5c;
+    }
+
+    .infoRight h1 {
+        font-size: 1.3rem;
+    }
+
+    .infoRight {
+        font-size: 1.3rem;
+        padding: 20px;
+        width: 400px;
+        margin: auto;
+    }
+}
