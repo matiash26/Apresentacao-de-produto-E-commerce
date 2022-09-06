@@ -3,12 +3,12 @@
 }
 .product-item1, .product-item2 {
     background-size: cover;
-    width: 70%;
 }
 
 .products-info {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .product-item1,

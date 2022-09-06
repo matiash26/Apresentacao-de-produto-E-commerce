@@ -102,25 +102,28 @@
     }
 
 }
-@media(max-width: 917px){
+
+@media(max-width: 917px) {
     .profileIcon {
         display: none;
     }
 }
 
 @media(max-width: 700px) {
-    .menuMobile{
+    .menuMobile {
         padding-left: 2%;
         display: flex;
         width: 100%;
         position: absolute;
         top: 15px;
     }
-    .menuMobile svg{
+
+    .menuMobile svg {
         font-size: 2rem;
         color: white;
         cursor: pointer
     }
+
     .menu-bar {
         flex-direction: column;
         width: 100%;
@@ -151,6 +154,12 @@
         font-size: 1.3rem;
         padding: 20px;
         width: 400px;
+        margin: auto;
+    }
+
+    .product-item1,
+    .product-item2 {
+        width: 90%;
         margin: auto;
     }
 }
